@@ -7,7 +7,7 @@ import os
 # Fungsi untuk memuat data CSV
 @st.cache_data
 def load_data():
-    return pd.read_csv('https://raw.githubusercontent.com/AndikaBN/predict_price_pc/refs/heads/main/laptop_data.csv')
+    return pd.read_csv('https://raw.githubusercontent.com/khusnul598/prediksi_harga_laptop/refs/heads/main/laptop_data.csv')
 
 # Fungsi untuk memuat model
 @st.cache_resource
